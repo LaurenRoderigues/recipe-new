@@ -1,0 +1,90 @@
+/*selector{
+  property: value;
+  property: value;
+  property: value;
+}*/
+
+header{
+  color: #cc3333;
+}
+html{
+  font: 100%/1.15 fantasy, cursive, monospace, sans-serif, serif;
+}
+body{
+  background-color: #ffffcc;
+  padding: 2em;
+  border: 1px solid #cc9966;
+  border-top: 1em solid #990000;
+  margin: 2em;
+  margin-top: -5em;
+}
+/*
+0123456789abcdef
+*/
+p{
+  color: #990000;
+}
+
+#ingredients {
+  border: 1px solid #cc9966;
+}
+
+body{
+  margin: 0;  */ allsides equal */
+  margin: 0 0 0 0; /*top, right, bottom, left*/
+margin: 0 0 0; /* top, left-right, bottom*/
+Margin: 0 0; /* top-bottom, left-right */
+Marign-Top 0;
+}
+img{
+  width:auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/*---my styles--*/
+body{
+  font-family:  "Trebuchet MS",Impact, Arial, "Comic Sans MS", serif;
+  max-width: 48rem;
+  padding: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 1.5 auto;
+}
+
+h1
+h2
+h3{
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h1{
+  font-size: 2.8em;
+  line-height: 1.3;
+}
+
+figcaption{
+  text-align: right;
+}
+
+p{
+  line-height: 1.35;
+  margin-top: 1em;
+}
+
+li{
+  margin-top: .5em;
+}
+
+section,
+ul,
+ol,{
+  padding-top: 1em;
+}
+
+@media (min-width: 48em){
+}
+
+body{
+  font-size: 125%;
+}
